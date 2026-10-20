@@ -3,3 +3,8 @@ Sakila is a sample database used to collect information about a DVD rental busin
 and it includes films, customer names, payments, etc. For use by the DVD rental
 business to manage the DVD rentals.
 */
+
+USE sakila;
+SELECT * FROM actor; -- Retrieved [number] records
+
+SELECT * FROM film; -- Retrieved [number] records
