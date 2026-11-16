@@ -1,0 +1,11 @@
+from datetime import datetime
+current_hour = float(input(f"Enter current time: "))
+
+if current_hour >= 23 or current_hour < 4:
+    print("What are you doing up so late???") 
+elif current_hour < 10:
+    print("Good Morning!")
+elif current_hour < 17:
+    print("Good day!")
+else:
+    print("Good evening!")
